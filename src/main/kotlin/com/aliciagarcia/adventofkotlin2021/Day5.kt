@@ -69,6 +69,8 @@ class Map(lines: List<Pair<Pair<Int, Int>, Pair<Int, Int>>>, val drawsDiagonals:
     }
 
     private fun drawDiagonalLine(start: Pair<Int, Int>, end: Pair<Int, Int>) {
+
+        //this guarantees that you can use the zip method. If not this solution is not valid 🙁
         if (abs(start.first - end.first) == abs(start.second - end.second)) {
 
             val x = if (start.first < end.first) {
