@@ -31,24 +31,24 @@ internal class Day6Test {
 
     @Test
     fun day6SecondPart18Test() {
-        // Assertions.assertEquals(26, secondPart.secondPart(18))
+         Assertions.assertEquals(26, day6.passDaysImmortal(18))
     }
 
     @Test
     fun day6SecondPart60Test() {
-        //Assertions.assertEquals(1042, secondPart.secondPart(60))
+        Assertions.assertEquals(1042, day6.passDaysImmortal(60))
     }
 
     @Test
     fun day6SecondPart80Test() {
 
-        //Assertions.assertEquals(5934, secondPart.secondPart(80))
+        Assertions.assertEquals(5934, day6.passDaysImmortal(80))
     }
 
     @Test
     fun day6SecondPart256Test() {
 
-        //Assertions.assertEquals(26984457539, secondPart.secondPart(256))
+        Assertions.assertEquals(26984457539, day6.passDaysImmortal(256))
     }
 
 

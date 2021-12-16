@@ -41,6 +41,10 @@ class Day6(fileName: String = "day6.txt") {
         }
         return _temp
     }
+
+    fun passDaysImmortal(days: Int): Int {
+        return 0
+    }
 }
 
 
